@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HomeEase</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header>
+    <h1>HomeEase</h1>
+    <p>Your Multi-Service Home Platform</p>
+</header>
+
+<section class="services">
+    <h2>Available Services</h2>
+    <div class="cards">
+        <div class="card" onclick="selectService('Electrician')">⚡ Electrician</div>
+        <div class="card" onclick="selectService('Plumber')">🚰 Plumber</div>
+        <div class="card" onclick="selectService('Carpenter')">🪚 Carpenter</div>
+        <div class="card" onclick="selectService('Cleaning')">🧹 Cleaning</div>
+    </div>
+</section>
+
+<section class="booking">
+    <h2>Book a Service</h2>
+    <input type="text" id="name" placeholder="Enter Name">
+    <input type="text" id="location" placeholder="Enter Location">
+
+    <select id="service" onchange="loadProviders()">
+        <option>Electrician</option>
+        <option>Plumber</option>
+        <option>Carpenter</option>
+        <option>Cleaning</option>
+    </select>
+
+    <button onclick="bookService()">Book Now</button>
+</section>
+
+<section class="providers">
+    <h2>Available Providers</h2>
+    <div id="providersList"></div>
+</section>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
