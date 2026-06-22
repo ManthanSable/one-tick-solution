@@ -1,0 +1,136 @@
+HOMEEASE - MULTI-SERVICE HOME PLATFORM
+
+STEPS TO RUN THE PROJECT
+
+Prerequisites:
+
+Python 3.10 or higher installed
+Visual Studio Code (Recommended)
+Flask package installed
+
+STEP 1: OPEN PROJECT FOLDER
+
+Open Visual Studio Code and open the HomeEase project folder.
+
+STEP 2: INSTALL FLASK
+
+Open Terminal and execute:
+
+pip install flask
+
+Verify installation:
+
+python --version
+pip show flask
+
+STEP 3: RUN THE APPLICATION
+
+Open Terminal in the project folder and execute:
+
+python app.py
+
+If the application starts successfully, you will see:
+
+Running on http://127.0.0.1:5000/
+
+STEP 4: OPEN THE APPLICATION
+
+Open any web browser and visit:
+
+http://127.0.0.1:5000
+
+The HomeEase homepage will be displayed.
+
+STEP 5: SIGN UP
+
+Click on Sign Up.
+Enter:
+Name
+Email
+Password
+Submit the form.
+User details will be stored in SQLite database.
+
+STEP 6: LOGIN
+
+Open Login page.
+Enter registered Email and Password.
+Click Login.
+User will be authenticated and redirected to the dashboard.
+
+STEP 7: ADD SERVICE PROVIDERS
+
+Service providers can be added to the database.
+
+Example:
+
+Name: Ramesh
+Service: Electrician
+Location: Mumbai
+Phone: 9876543210
+
+Available Categories:
+
+Electrician
+Plumber
+Carpenter
+Cleaner
+
+STEP 8: BOOK A SERVICE
+
+Select service category.
+View available providers.
+Choose a provider.
+Click Book Now.
+Booking details will be stored in database.
+
+DATABASE INFORMATION
+
+Database Name:
+homeease.db
+
+Tables:
+
+users
+providers
+bookings
+
+The database is automatically created when the application runs for the first time.
+
+TECHNOLOGIES USED
+
+Frontend:
+
+HTML
+CSS
+JavaScript
+
+Backend:
+
+Python Flask
+
+Database:
+
+SQLite
+
+Development Tool:
+
+Visual Studio Code
+
+PROJECT MODULES
+
+User Registration
+User Login
+Service Provider Management
+Service Booking
+Database Management
+
+AUTHOR
+
+Project Title:
+HomeEase – Multi-Service Home Service Booking Platform
+
+Developed Using:
+Python Flask + SQLite + HTML/CSS/JavaScript
+
+END OF DOCUMENT
