@@ -1,0 +1,16 @@
+Project Structure:
+
+homeease/
+│
+├── app.py
+├── homeease.db
+├── templates/
+│ ├── index.html
+│ ├── login.html
+│ └── signup.html
+│
+├── static/
+│ ├── style.css
+│ └── script.js
+│
+└── README.txt
